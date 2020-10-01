@@ -9,17 +9,13 @@ const quotes = [
 const colors = ['#f7f0d0', '#e4fcd7', '#d7f6fc','#f0d7fc']
 
 function showQuote() {
-    let randomNumber = Math.random () * quotes.length;
-    let newNumber = Math.floor (randomNumber);
+    let newNumber = Math.floor (Math.random () * quotes.length);
     let randomQuote = quotes[newNumber];
-    console.log (randomQuote);
     quoteDisplay.innerHTML = randomQuote 
 }
 function changeColor () {
-    let randomNumber = Math.random() * colors.length;
-    let newNumber = Math.floor (randomNumber);
+    let newNumber = Math.floor (Math.random() * colors.length);
     let randomColor = colors[newNumber];
-    console.log (randomColor);
     const background = document.querySelector ('.frame');
     background.style.backgroundColor = randomColor;
 }
