@@ -1,0 +1,44 @@
+body {
+    background-color: #FFABAB;
+    text-align: center;
+
+}
+.frame {
+    width:70%;
+    height: 320px;
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+.quote-frame {
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    /* background: green; */
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+.btn {
+    /* background: red; */
+    margin-top: 5px;
+}
+button {
+    background-color: #f2ebf5;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Mali', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+}
+button:hover {
+    cursor: pointer;
+}
